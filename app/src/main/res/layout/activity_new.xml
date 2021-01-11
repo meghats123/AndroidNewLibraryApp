@@ -1,0 +1,42 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundcolor"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_margin="20dp"
+        android:src="@drawable/booklogo"
+        android:layout_width="match_parent"
+        android:layout_height="200px"/>
+    <TextView
+        android:layout_margin="20dp"
+        android:text="@string/bookname"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="ADD BOOK"
+        android:onClick="addbook"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttoncolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="SEARCH BOOK"
+        android:onClick="searchbook"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttoncolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="BACK TO LOGIN"
+        android:onClick="backtologin"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttoncolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

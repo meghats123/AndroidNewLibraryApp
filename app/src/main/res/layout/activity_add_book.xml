@@ -1,0 +1,71 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:layout_margin="20dp"
+            android:src="@drawable/booklogo"
+            android:layout_width="match_parent"
+            android:layout_height="200px"/>
+        <TextView
+            android:layout_margin="20dp"
+            android:text="@string/bookname"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_margin="20dp"
+            android:id="@+id/bname"
+            android:hint="Book Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="20dp"
+            android:id="@+id/author"
+            android:hint="Author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="20dp"
+            android:id="@+id/publisher"
+            android:hint="Publisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="20dp"
+            android:id="@+id/yearpublish"
+            android:hint="Year Of Publishing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="20dp"
+            android:id="@+id/price"
+            android:inputType="number"
+            android:hint="Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="SUBMIT"
+            android:layout_margin="20dp"
+            android:background="@drawable/buttoncolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="BACK TO MENU"
+            android:onClick="back"
+            android:layout_margin="20dp"
+            android:background="@drawable/buttoncolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

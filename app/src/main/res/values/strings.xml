@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidMyLibraryNewApp</string>
+    <string name="bookname">BOOK STORE</string>
+    <string name="bookreg">REGISTER</string>
+</resources>
